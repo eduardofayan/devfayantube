@@ -1,0 +1,68 @@
+{
+    "name": "Eduardo Vinícius Fayan",
+    "job": "Desenvolvedor Front End React",
+    "github": "eduardofayan",
+    "playlists": {
+        "Front-End": [
+            {
+                "title": "Codificação básica - Curso de HTML Completo e Profissional #01",
+                "url": "https://www.youtube.com/watch?v=BUpk68lggtY",
+                "thumb": "https://i.ytimg.com/an_webp/BUpk68lggtY/mqdefault_6s.webp?du=3000&sqp=CKjk0JsG&rs=AOn4CLDwN9MR4jUxuKfR_jeqGrMb-2D9nw"
+            },
+            {
+                "title": "Curso de CSS para iniciantes - Aprenda CSS e crie um projeto",
+                "url": "https://www.youtube.com/watch?v=vwbegraDXD8",
+                "thumb": "https://i.ytimg.com/vi/vwbegraDXD8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnDIPo-0-8M5kv6o0fT-tWE6QwGw"
+            },
+            {
+                "title": "O que o JavaScript é capaz de fazer? - Curso JavaScript #01",
+                "url": "https://www.youtube.com/watch?v=Ptbk2af68e8",
+                "thumb": "https://i.ytimg.com/an_webp/Ptbk2af68e8/mqdefault_6s.webp?du=3000&sqp=CIHr0JsG&rs=AOn4CLBBGMTcfUknr3X7SGhj1QyQ-oGfvQ"
+            },
+            {
+                "title": "Usar Bootstrap ou criar tudo na Mão? Qual vale mais a pena?",
+                "url": "https://www.youtube.com/watch?v=FDyoaiWMAxA",
+                "thumb": "https://i.ytimg.com/an_webp/FDyoaiWMAxA/mqdefault_6s.webp?du=3000&sqp=CIDL0JsG&rs=AOn4CLBfRcS9hDtuaietz0862-l0TIBvHg"
+            },
+            {
+                "title": "React: O minimo de base que você precisa saber para não sofrer começando com a ferramenta #ReactJS",
+                "url": "https://www.youtube.com/watch?v=4BxrxiMMjcA&t=253s",
+                "thumb": "https://i.ytimg.com/vi/4BxrxiMMjcA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLANcfjVkzWzlg1Y1gJ9rfYLbo6JyQ"
+            }
+        ],
+        "Call of Duty": [
+            {
+                "title": "Primeira partida ELETRIZANTE no MW2 (Impressões iniciais do jogo)",
+                "url": "https://www.youtube.com/watch?v=jAgLJmNYePk",
+                "thumb": "https://i.ytimg.com/an_webp/jAgLJmNYePk/mqdefault_6s.webp?du=3000&sqp=CLrc0JsG&rs=AOn4CLCHPWBQDZao_TpXs9EYpYskGrjfPQ"
+            },
+            {
+                "title": "TS-CF - HARD POINT - (SkyFoX vs GDR TEAM) MD3 (zQuiKz CAM) - ELES CORRERAM !",
+                "url": "https://www.youtube.com/watch?v=4mo8iA5jNps&t=375s",
+                "thumb": "https://i.ytimg.com/vi/4mo8iA5jNps/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHdKogPRLVsd3_oUome2jgcVZKVQ"
+            },
+            {
+                "title": "TOPGUN CoD CUP - Game $how x 220v (Oitavas de final)",
+                "url": "https://www.youtube.com/watch?v=PcSa5_9EGnY&t=338s",
+                "thumb": "https://i.ytimg.com/vi/PcSa5_9EGnY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRazmTWwv0Bp_VWphTWNDOQ784rw"
+            },
+            {
+                "title": "My Name is I SHOW I SpAcE!! Gt - xbox live",
+                "url": "https://www.youtube.com/watch?v=Q4wSDZ3XiHg",
+                "thumb": "https://i.ytimg.com/vi/Q4wSDZ3XiHg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1jCPIoRbN7DmYhwgbNbKxIcHVUw"
+            },
+            {
+                "title": "RONALDO BRILHANDO NO WARZONE #1 | Cortes RonaldoTV",
+                "url": "https://www.youtube.com/watch?v=iu7ykZ1JmoM",
+                "thumb": "https://i.ytimg.com/an_webp/iu7ykZ1JmoM/mqdefault_6s.webp?du=3000&sqp=CObm0JsG&rs=AOn4CLArXiXBGan0ywciOYIicMh3i_AWug"
+            }
+        ],
+        "Musics": [
+            {
+                "title": "Musica",
+                "url": "url",
+                "thumb": "thumb"
+            }
+        ]
+    }
+}
