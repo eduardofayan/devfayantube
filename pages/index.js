@@ -10,7 +10,7 @@ function HomePage() {
   //*backgroundColor: "red"
   //};
   //*console.log(config.playlists);
-  const [valorDoFiltro, setValorDoFiltro] = React.useState("Teste")
+  const [valorDoFiltro, setValorDoFiltro] = React.useState("")
   //const valorDoFiltro = "Call"
   return (
     <>
@@ -73,7 +73,7 @@ function Header() {
   )
 }
 
-function Timeline(searchValue, ...props) {
+function Timeline({searchValue, ...props}) {
   //*console.log("Dentro do Componente", props.playlists);
   const playlistsNames = Object.keys(props.playlists);
   //Statement
@@ -82,16 +82,16 @@ function Timeline(searchValue, ...props) {
     <StyledTimeline>
       {playlistsNames.map((playlistName) => {
         const videos = props.playlists[playlistName];
-        console.log(playlistName);
-        console.log(videos);
+        //console.log(playlistName);
+        //console.log(videos);
         return (
-          <section>
+          <section key={playlistName}>
             <h2>{playlistName}</h2>
             <div>
               {videos.filter((video) => {
                 const titleNormalized = video.title.toLowerCase();
-                const searchValueNormalized = searchValue.toLowerCase()
-                return titleNormalize.includes(searchValueNormalize)
+                const searchValueNormalized = searchValue.toLowerCase();
+                return titleNormalized.includes(searchValueNormalized);
               }).map((video) => {
                 return (
                   <a href={video.url}>
@@ -100,11 +100,11 @@ function Timeline(searchValue, ...props) {
                       {video.title}
                     </span>
                   </a>
-                )
+                );
               })}
             </div>
           </section>
-        )
+        );
       })}
     </StyledTimeline>
   )
