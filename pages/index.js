@@ -46,7 +46,6 @@ img{
   border-radius: 50%;
 }
 .user-info{
-  margin-top: 50px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -54,9 +53,16 @@ img{
   gap: 16px;
 }
 `;
+
+const StyledBanner = styled.div` 
+  background-image: url(${({bannerBg}) => bannerBg});
+  //background-image: url(${config.bannerBg});
+  height: 230px;
+`;
 function Header() {
   return (
     <StyledHeader>
+      <StyledBanner bannerBg={config.bannerBg}/>
       <section className="user-info">
         {/*<img src="banner" />*/}
         <img src={`https://github.com/${config.github}.png`} />
@@ -94,7 +100,7 @@ function Timeline({searchValue, ...props}) {
                 return titleNormalized.includes(searchValueNormalized);
               }).map((video) => {
                 return (
-                  <a href={video.url}>
+                  <a key={video.url} href={video.url}>
                     <img src={video.thumb} />
                     <span>
                       {video.title}
